@@ -18,6 +18,11 @@ namespace Simulator.Controllers
             _logger = logger;
         }
 
+        public IActionResult RegistrToExem2()
+        {
+            return View();
+        }
+
 
         public IActionResult Results()
         {

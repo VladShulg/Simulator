@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Регестрация";
+}
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+<h1 class="h1-styles">Регестрация участника экзамена</h1>
+<p style="background-color:white; color:blue">2.Введите номер аудитории и места, на котором вы сдаете экзамен.</p>
+<div class="p-style">
+    № аудитории
+    <input type="text" class="form-control" placeholder="номер" id="name" name="username">
+</div>
+<div class="p-style">№ места<input type="text" class="form-control" placeholder="ряд(буква)" id="name" name="username"></div>
+<input type="text" class="form-control" placeholder="место (цифра)" id="name" name="username" style="margin-top: 20px">
+<button style="margin-top: 60px; text-align:end " class="btn btn-success" onclick="window.location.assign('/Home/Instruction')">Продолжить</button>
+<style>
+    .p-style {
+        font-size: 40px;
+        text-align: center
+    }
+
+    .h1-styles {
+        color: navy;
+    }
+</style>

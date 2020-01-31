@@ -10,9 +10,15 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </head>    
-<h1 class="h1-styles">Регестрация</h1>
-<p class="p-style">Имя <input type="text" class="form-control" id="usr" name="username"></p>
-<button class="btn btn-success" onclick="window.location.assign('/Home/Instruction')">Продолжить</button>
+<h1 class="h1-styles">Авторизация участника экзамена</h1>
+<p style="background-color:white; color:blue">1.Введите ФИО и сведения о документе, удостоверяющем личность. </p>
+<div class="p-style">Фамилия <input type="text" class="form-control" id="surname" name="username"></div>
+<div class="p-style">Имя <input type="text" class="form-control" id="name" name="username"></div>
+<div class="p-style">Отчество <input type="text" class="form-control" id="fathname" placeholder="Это поле не обязательно для заполнения" name="username"></div>
+<div class="p-style" style="margin-top:100px">Серия документа <input type="text" placeholder="Это поле не обязательно для заполнения" class="form-control" id="documentseias" name="username"></div>
+<div class="p-style">Номер документа <input type="text" class="form-control" id="" placeholder="Это поле не обязательно для заполнения" name="username"></div>
+<button style="margin-top: 60px; text-align:end " class="btn btn-success">Экзамен начат в аудитории</button>
+<button style="margin-top: 60px; text-align:end " class="btn btn-success" onclick="window.location.assign('/Home/RegistrToExem2')">Продолжить</button>
 <style>
     .p-style{
         font-size: 40px;
@@ -20,7 +26,6 @@
     }
     .h1-styles{
         color: navy;
-        text-align:center;
     }
 </style>
 
